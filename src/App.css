@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html{
+  color: white;
+  font-family: lato, sans-serif;
+  background-color: #1b1b32;
+}
+
+
+.name-app{
+  color: rgb(255, 255, 255);
+  font-family: lato, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.task-app{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*task list styles*/
+
+.task-list{
+  width: 600px;
+  min-height: 600px;
+  background-color: #d0d0d5;
+  padding: 25px;
+  margin: 25px;
+  border-radius: 10px;
+}
+
+.task-list h1{
+  color: #1b1b32;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/*Task complete*/
+
+.task-container.complete{
+  background-color: #3b3b44;
+  text-decoration: line-through;
+}
