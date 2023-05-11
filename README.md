@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# ***To-Do App***
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## General Description 📋
+
+This project is about the To-Do application, this project allows you to add pending tasks and mark them complete when they are done. 
+It also allows you to delete them whenever you want.
+
+- ***Expample image of this App.***
+
+![image](https://github.com/Elian-Developer/To-Do-App/assets/107364306/4d004618-0000-44b2-ba3d-a6607510f870)
 
 ## Available Scripts
 
